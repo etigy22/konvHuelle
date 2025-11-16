@@ -1,6 +1,6 @@
 # konvHuelle
 Inkrementeller Algorithmus für die Berechnung der konvexen Hülle
-von Etienne Gysling und Noé Tortomazi
+von Etienne Gysling und Noé Tortomasi
 
 ## Zusammenfassung
 
