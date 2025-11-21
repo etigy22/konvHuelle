@@ -28,4 +28,4 @@ python main.py
 
 ### Voraussetzungen
 
-- Python 3.x
+- Python 3.7 oder höher
