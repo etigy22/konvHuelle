@@ -6,6 +6,14 @@ von Etienne Gysling und Noé Tortomasi
 
 Dieses Programm berechnet die konvexe Hülle einer zufällig erzeugten Menge von Punkten im zweidimensionalen Raum. Die Berechnung erfolgt durch Sortieren der Punkte und schrittweises Erstellen der oberen und unteren Hülle. Als Ergebnis werden die Punkte ausgegeben, die die konvexe Hülle bilden.
 
+## Visualisierung der konvexen Hülle
+
+Zur Veranschaulichung des inkrementellen Algorithmus zur Berechnung der konvexen Hülle wurden zwei verschiedene Visualisierungen umgesetzt.
+
+In einem ersten Schritt werden mit Python zufällige Punkte im zweidimensionalen Raum erzeugt und mit Matplotlib als Streudiagramm dargestellt. Die berechnete konvexe Hülle wird anschließend als geschlossenes Polygon um diese Punktmenge gezeichnet. Dadurch lässt sich gut erkennen, welche Punkte als Eckpunkte der Hülle auf dem „Rand“ der Menge liegen.
+
+Zusätzlich wurde eine einfache Animation mit Tkinter implementiert. Diese zeigt schrittweise, wie der Algorithmus die obere und untere Hülle aufbaut und dabei Punkte wieder verwirft, die nicht zur äußeren Hülle gehören. Die Animation hilft dabei, den Ablauf des Monotone-Chain-Algorithmus intuitiv nachzuvollziehen, auch wenn die Darstellung technisch bedingt eher schlicht ist.
+
 ## Ablauf
 
 - Der Benutzer gibt die gewünschte Anzahl an Punkten (zwischen 3 und 100) ein.
