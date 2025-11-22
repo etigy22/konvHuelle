@@ -6,7 +6,7 @@ von Etienne Gysling und Noé Tortomasi
 
 Dieses Programm berechnet die konvexe Hülle einer zufällig erzeugten Menge von Punkten im zweidimensionalen Raum. Die Berechnung erfolgt durch Sortieren der Punkte und schrittweises Erstellen der oberen und unteren Hülle. Als Ergebnis werden die Punkte ausgegeben, die die konvexe Hülle bilden.
 
-## Visualisierung der konvexen Hülle
+## Visualisierung und Animation der konvexen Hülle
 
 Zur Veranschaulichung des inkrementellen Algorithmus zur Berechnung der konvexen Hülle wurden zwei verschiedene Visualisierungen umgesetzt.
 
