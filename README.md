@@ -28,6 +28,14 @@ Zusätzlich wurde eine einfache Animation mit Tkinter implementiert. Diese zeigt
 
 Die Hauptdatei (`main.py`) implementiert einen inkrementellen Algorithmus zur Berechnung der konvexen Hülle.
 
+## Visualierungsdatei
+
+Die Datei (`visualisierung.py`) gibt eine Grafik aus der Berechnung der konvexen Hülle nach dem inkrementellen Algorithmus aus.
+
+## Animationsdatei
+
+Die Datei (`animation.py`) öffnet ein separates Fenster und zeigt den Ablauf der Berechnung der konvexen Hülle.
+
 ### Ausführen
 
 ```bash
